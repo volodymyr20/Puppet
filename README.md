@@ -7,9 +7,9 @@
 **Pre-requisites**
 
 1. Two Linux boxes hosted, say, by AWS (console.aws.amazon.com) with some descriptive names like: 
-  * become root: ```sudo su -```
-  * ```hostname puppetagent.example.org```
-  * ```hostname puppetmaster2.example.org```
+* become root: ```sudo su -```
+* ```hostname puppetagent.example.org```
+* ```hostname puppetmaster2.example.org```
 
 2. They are added to each other /etc/hosts, e.g.:
 * on the agent: ```echo 172.31.62.149 puppetmaster2.example.org >> /etc/hosts```
