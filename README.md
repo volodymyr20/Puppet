@@ -66,6 +66,7 @@ Note: otherwise it fails, which is a known bug.
         }
     }
     ```
+
 **Running**
   * on the master: ```puppet master --no-daemonize --verbose --user root --group root```
   * on the agent: ```puppet agent --onetime --no-daemonize --verbose```
