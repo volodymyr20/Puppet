@@ -26,11 +26,13 @@ Note: otherwise it fails, which is a known bug.
 
 5. Puppet configs created - /etc/puppetlabs/puppet/puppet.conf:
   * agent: 
+  
     ```
     [main]
     server=puppetmaster2.example.org
     ```
   * master: 
+  
     ```
     [master]
     sertname=puppetmaster2.example.org
