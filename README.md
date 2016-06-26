@@ -1,4 +1,4 @@
-** This is an example of using Puppet: **
+**This is an example of using Puppet:**
 * There are two nodes: master and agent
 * Two manifests exist on the master:
   - site.pp will create puppetsimple.sh on the agent if doesn't exist
@@ -7,9 +7,9 @@
 **Pre-requisites**
 
 1. Two Linux boxes hosted, say, by AWS (console.aws.amazon.com) with some descriptive names like: 
-* become root: ```sudo su -```
-* ```hostname puppetagent.example.org```
-* ```hostname puppetmaster2.example.org```
+  * become root: ```sudo su -```
+  * ```hostname puppetagent.example.org```
+  * ```hostname puppetmaster2.example.org```
 
 2. They are added to each other /etc/hosts, e.g.:
 * on the agent: ```echo 172.31.62.149 puppetmaster2.example.org >> /etc/hosts```
