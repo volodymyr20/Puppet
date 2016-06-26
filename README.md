@@ -59,6 +59,7 @@ Note: otherwise it fails, which is a known bug.
     }
     ```
   * apache.pp to install apache: 
+  
     ```
     class apache {
         package { 'httpd':
